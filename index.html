@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shakti SHG Store connects customers with handmade products created by rural women and self-help groups." />
+  <title>Shakti SHG Store | Handmade with Purpose</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">Made by rural women. Chosen by you. <span>Every purchase supports local skills.</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Shakti SHG Store home">
+      <span class="brand-mark">श</span>
+      <span><strong>Shakti</strong><small>SHG STORE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#groups">Our SHGs</a><a href="#impact">Our Impact</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-pill" id="cartJump" aria-label="View cart">Bag <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">A marketplace with a mission</p>
+        <h1>Small crafts.<br /><em>Big possibilities.</em></h1>
+        <p class="hero-text">Discover thoughtful, handmade products created by rural women and Self-Help Groups. Every item carries a skill, a story, and the spirit of a community.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#shop">Explore the store <span>↗</span></a><a class="text-link" href="#impact">Why Shakti matters →</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>🌼</span><span>🧵</span><span>🪡</span></div><p><strong>Skills deserve a market.</strong><br /><small>Discover local makers and their work.</small></p></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of handmade craft products">
+        <div class="sun"></div><div class="plant plant-one">✳</div><div class="plant plant-two">✿</div>
+        <div class="art-label label-top">Made with care</div>
+        <div class="product-illustration basket"><div class="basket-handle"></div><div class="basket-body"><span></span><span></span><span></span></div></div>
+        <div class="product-illustration pot"><div class="pot-neck"></div><div class="pot-body"><i></i><i></i><i></i></div></div>
+        <div class="product-illustration textile"><div class="textile-pattern"></div></div>
+        <div class="art-label label-bottom">Rooted in community <b>✦</b></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Store principles">
+      <div><span>✦</span><strong>Local craftsmanship</strong><small>Made by skilled hands</small></div>
+      <div><span>♡</span><strong>Community first</strong><small>Supporting SHG livelihoods</small></div>
+      <div><span>♧</span><strong>Thoughtful choices</strong><small>Products with a story</small></div>
+    </section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">The community collection</p><h2>Find something <em>meaningful.</em></h2><p class="section-intro">Browse a sample collection inspired by handmade goods produced by rural entrepreneurs.</p></div>
+        <div class="shop-tools"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products" /></label><select id="categoryFilter" aria-label="Filter by category"><option value="all">All categories</option><option value="Home">Home & Living</option><option value="Accessories">Accessories</option><option value="Food">Pantry</option><option value="Craft">Craft</option></select></div>
+      </div>
+      <div class="category-chips" id="categoryChips"><button class="chip active" data-category="all">All products</button><button class="chip" data-category="Home">Home & Living</button><button class="chip" data-category="Accessories">Accessories</button><button class="chip" data-category="Food">Pantry</button><button class="chip" data-category="Craft">Craft</button></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <p class="demo-note">Student project demo: products, prices and maker profiles are illustrative examples, not verified listings or live inventory.</p>
+    </section>
+
+    <section class="story-section" id="groups">
+      <div class="story-visual"><div class="story-sun"></div><div class="story-circle circle-one">✿</div><div class="story-circle circle-two">🧶</div><div class="story-circle circle-three">🪴</div><div class="story-card"><span>THE POWER OF</span><strong>working<br />together.</strong><small>Self-Help Groups</small></div></div>
+      <div class="story-copy"><p class="eyebrow">More than a marketplace</p><h2>When women grow,<br /><em>communities grow.</em></h2><p>Self-Help Groups bring people together to build skills, share knowledge, save collectively and explore livelihood opportunities. Shakti imagines a simple digital storefront that helps these makers present their products to a wider audience.</p><div class="story-points"><div><span>01</span><p><strong>Showcase skills</strong><small>Give handmade work a digital shop window.</small></p></div><div><span>02</span><p><strong>Build visibility</strong><small>Tell customers who made each product.</small></p></div><div><span>03</span><p><strong>Encourage learning</strong><small>Connect craft, digital literacy and entrepreneurship.</small></p></div></div></div>
+    </section>
+
+    <section class="impact-section" id="impact">
+      <div class="impact-heading"><p class="eyebrow">Our purpose</p><h2>Technology that makes<br /><em>space for opportunity.</em></h2><p>This concept demonstrates how a basic e-commerce interface can support visibility for rural products and women-led groups.</p></div>
+      <div class="impact-cards"><article><span class="impact-icon">✎</span><h3>Skill visibility</h3><p>Profiles and product descriptions can help makers share the story behind their work.</p></article><article><span class="impact-icon">↗</span><h3>Digital access</h3><p>A simple storefront can introduce customers to products beyond their immediate locality.</p></article><article><span class="impact-icon">♡</span><h3>Community value</h3><p>Responsible purchasing can encourage appreciation for local craft and entrepreneurship.</p></article></div>
+      <p class="impact-caveat">This student prototype does not measure real-world income or social impact. Any future deployment would need verified SHG partnerships and user testing.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow">Let’s connect</p><h2>Have a question or a<br /><em>maker story to share?</em></h2><p>Use this demo form to try the interaction. It does not send data to a server.</p><div class="contact-detail"><span>✉</span><div><strong>Project contact</strong><small>Replace with your team’s approved contact details</small></div></div></div>
+      <form id="contactForm" class="contact-form">
+        <label>Your name<input name="name" required placeholder="Enter your name" /></label>
+        <label>Email address<input type="email" name="email" required placeholder="you@example.com" /></label>
+        <label>Message<textarea name="message" rows="4" required placeholder="Write your message..."></textarea></label>
+        <button class="btn btn-primary" type="submit">Send demo message <span>↗</span></button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">श</span><span><strong>Shakti</strong><small>SHG STORE</small></span></a><p>Celebrating skills. Connecting communities.</p><div><a href="#shop">Shop</a><a href="#groups">Our SHGs</a><a href="#contact">Contact</a></div><small class="copyright">© <span id="year"></span> Shakti SHG Store · Student project prototype</small></footer>
+
+  <div class="cart-overlay" id="cartOverlay" aria-hidden="true">
+    <div class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="cart-header"><div><p class="eyebrow">Your selection</p><h2 id="cartTitle">Shopping bag</h2></div><button id="closeCart" class="close-cart" aria-label="Close cart">×</button></div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-bottom"><div class="cart-total"><span>Subtotal</span><strong id="cartTotal">₹0</strong></div><p>Demo checkout only. No payment is collected.</p><button id="checkoutBtn" class="btn btn-primary full-width">Continue to demo checkout →</button><p id="checkoutStatus" class="form-status" role="status"></p></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
